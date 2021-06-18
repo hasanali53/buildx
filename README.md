@@ -1,2 +1,2 @@
-# bootstrap-project-repository
+# bootstrap-project.buildx
  
