@@ -1,0 +1,243 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Roboto:wght@400;700;900&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+p{
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    font-family: 'Roboto';
+    color: #696969;
+}
+.color-primary{
+    color: #fab702;
+}
+.bgcolor-primary{
+    background-color: #fab702;
+}
+.btn-logo{
+    background-color: #fab702;
+    color: #fff;
+    border-radius: 0px;
+    padding: 15px 30px;
+    font-weight: 600;
+    transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+}
+.btn-logo:hover{
+    background-color: black;
+    color: #fab702;
+}
+.btn-logo-revers{
+    background-color: #fff;
+    color: #fab702;
+}
+.pad-70{
+    padding: 70px 0px;
+}
+.sec-title{
+    font-size: 36px;
+}
+.sec-text{
+    max-width: 750px;
+}
+/* global class*/
+/* header start */
+/* topbar start */
+.topbar{
+    background-color: rgb(245, 245, 243);
+}
+.top-envelope i{
+    margin-right: 5px;
+
+}
+.rotate-45 i{
+    transform: rotate(90deg);
+   margin-left: 50px;
+   margin-right: 5px;
+}
+/* topbar end */
+
+/* nabvar start */
+.navbar-nav .nav-item{
+    margin-left: 25px;
+}
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+	color: #fab702;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+	padding-right: 0;
+	padding-left: 0;
+}
+/* nabvar end */
+/* header end */
+/* banner start */
+.banner-wrapper{
+    position: relative;
+}
+.banner{
+    position: absolute;
+    top: 50%;
+    max-width: 700px;
+    transform: translateY(-50%);
+}
+.banner h1{
+    font-size: 60px;
+    padding-bottom: 2px;
+
+}
+.banner p{
+    max-width: 565px;
+    line-height: 1.7;
+    padding-top: 4px;
+    padding-bottom: 3px;
+}
+/* banner end */
+
+/* our service start */
+.service-item h3, .promo-title{
+    font-size: 22px;
+    color: #3b404f;
+    transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+}
+.service-item h3:hover, .promo-title:hover{
+color: #fab702;
+}
+.service-item a{
+    color: #696969;
+}
+.service-item a:hover{
+    color: #fab702;
+    text-decoration: none;
+}
+/* our service end */
+/* promo section start */
+
+.video-wrapper iframe{
+    display: block;
+}
+.promo-contant{
+    background-color: #fff8f8;
+    padding: 100px 0;
+}
+.promo-item{
+    padding: 0 15px;
+}
+.promoic{
+    text-align: left;
+}
+.promo-title{
+    font-size: 22px;
+}
+/* promo section end */
+/* featcher section start */
+.filter-button-group button{
+border: none;
+background: transparent;
+border-bottom: 2 px solid transparent;
+margin-left: 5px;
+margin-right: 5px;
+text-transform: uppercase;
+}
+.filter-button-group button:hover{
+    border-bottom: 2px solid #fab702;
+    color: #fab702;
+    }
+.element-item{
+    width: 100%;
+    border: 1px solid #fff;
+    overflow: hidden;
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    padding: 30px 20px;
+    background-color: #fef6de;
+    left: 0;
+    bottom: -100px;
+    transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+}
+.element-item:hover .overlay{
+bottom: 0;
+}
+.featured-item-title{
+    font-size: 22px;
+    position: relative;
+}
+.featured-item-title:after{
+    content:"";
+    position: absolute;
+    width: 50px;
+    height: 2px;
+    background-color: #6d7396;
+    left: 0;
+    bottom: -10px;
+
+}
+.icon-overlay i{
+    background-color: #fab702;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    color: #fff;
+}
+/* featcher section end */
+/* customer feedback section start  */
+.testimonial-item{
+    background-color: #f5f5f5;
+    margin-bottom: 3px;
+    
+}
+.testimonial-side{
+    background-color: #eb768c;
+}
+.owl-theme .owl-dots .owl-dot span {
+
+	background:#fab702;
+
+}
+.bcoustom{
+    text-transform: uppercase;
+    position: relative;
+}
+.bcoustom:after{
+    content:"";
+    position: absolute;
+    width: 30px;
+    height: 2px;
+    background-color: #fab702;
+    left: 0;
+    bottom: -10px;
+}
+/* customer feedback section start  */
+
+/* counter section start */
+.counter-item h2{
+    font-size: 2.2rem;
+}
+
+/* counter section end */
+
+/* contact section start */
+.contact-wrapper{
+    background-color: #f5f5f5;
+    padding: 40px;
+}
+.contact-body{
+    background-color: #fff;
+    border-left: 5px solid #fab702;
+}
+/* contact section end */

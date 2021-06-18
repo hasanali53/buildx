@@ -1,0 +1,77 @@
+
+@media only screen and (min-width: 320px) and (max-width: 413.98px) {
+    .topbarq{
+        font-size: 15px;
+        text-align: center;
+    }
+    .topbarmc{
+        font-size: 15px;
+        text-align: center;
+    }
+    .top-envelope{
+         font-size: 15px;
+    }
+    .banner h1{
+        font-size: 15px;
+        padding-top: 2px;
+    }
+    .banner p {
+        line-height: 1.5;
+        padding-top: 2px;
+        padding-bottom: 1px;
+        font-size: 11px;
+    }
+    .btn-logo {
+        padding: 3px 3px;
+        font-size: x-small;
+      
+    }
+    .get-quote-warpper .quoto8 p {
+        font-size: 10px;
+        padding-bottom: 6px;
+    }
+    .get-quote-warpper .quoto4 {
+        text-align: center;
+    }
+    .service-item {
+        margin-top: 20px;
+    }
+    .service-item h3{
+        text-align: center;
+    }
+    .serva{
+        padding-left: 100px;
+    
+    }
+    .promoic{
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    .promo-title{
+        text-align: center;
+    }
+    .counterxs p {
+        font-size: 15px;
+        
+    }
+    .counterxs h2 {
+        font-size: 12px;
+        padding-bottom: 6px;
+    }
+    .contact-body {
+        background-color: #fff;
+        border-left: 20px solid #fab702;
+        }
+     
+}
+
+
+@media (min-width: 768px) {  }
+
+
+@media (min-width: 992px) {  }
+
+
+@media (min-width: 1200px) {  }
+
+@media (min-width: 1400px) { }
